@@ -209,6 +209,13 @@ align-items: center;
     width: 173px;
     height: 48px;
 }
+.button-type2 {
+    border: 1px solid #A53DFF;
+    background-color: white;
+    color: #A53DFF;
+  
+
+}
 .bug button {
 border: 1px solid #A53DFF;
     background-color: white;
