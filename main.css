@@ -14,6 +14,8 @@ body {
 
 header {
     position: sticky;
+    top: 0;
+    z-index: 1;
     background-color: white;
 }
 
@@ -85,6 +87,9 @@ section {
     margin-top: 250px;
     zoom: 1.15;
 }
+
+    
+
 .container {
     
      display: flex;
@@ -117,7 +122,7 @@ section {
     max-width: 126px;
 }
 
-.row {
+.row{
     display: flex;
     margin-top: 100px;
     background-color: #EDD8FF;
@@ -234,4 +239,38 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+@media only screen and (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+    }
+    .review {
+         flex-direction: column;
+    }
+    .row-third {
+         flex-direction: column;
+    }
+    .row-third .bug {
+         flex-direction: column;
+    }
+    footer {
+         flex-direction: column;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .review {
+         flex-direction: column;
+    }
+    .row-third {
+         flex-direction: column;
+    }
+    .row-third .bug {
+         flex-direction: column;
+    }
+    footer {
+         flex-direction: column;
+    }
 }
